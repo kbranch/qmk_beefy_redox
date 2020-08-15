@@ -15,8 +15,10 @@ BOOTLOADER = caterina
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = no      # Virtual DIP switch configuration
+# MOUSEKEY_ENABLE = no       # Mouse keys
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
+# CONSOLE_ENABLE = yes         # Console for debug
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = yes        # Commands for debug and configuration
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
@@ -30,6 +32,7 @@ BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 AUDIO_ENABLE = no           # Audio output on port C6
 FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight. 
+RGBLIGHT_SPLIT_ENABLE = yes
 
 SPLIT_KEYBOARD = yes
 
